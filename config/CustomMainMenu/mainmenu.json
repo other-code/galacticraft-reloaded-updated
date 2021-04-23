@@ -1,0 +1,167 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "background:title2.png",
+            "posX" : -240,
+            "posY" : 30,
+            "width" : 512,
+            "height" : 100,
+            "imgagewidth": 800,
+            "imageheight": 200,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 30,
+            "posY" : -24,
+            "width" : 200,
+            "height" : 20,
+            "alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 30,
+            "posY" : 0,
+            "width" : 200,
+            "height" : 20,
+            "alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 30,
+            "posY" : 24,
+            "width" : 200,
+            "height" : 20,
+            "alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 30,
+            "posY" : 48,
+            "width" : 98,
+            "height" : 20,
+            "alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 132,
+            "posY" : 48,
+            "width" : 98,
+            "height" : 20,
+            "alignment": "left_center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : 50,
+            "posY" : 72,
+            "width" : 20,
+            "height" : 20,
+            "alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 30,
+            "posY" : 72,
+            "width" : 20,
+            "height" : 20,
+            "alignment": "left_center",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Created by TheFridgeMaster!",
+            "posX" : -90,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "background":
+        {
+            "image" : "background:menu.png",
+            "mode": "fill"
+        }
+    }
+}
